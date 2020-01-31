@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <title>字体图标</title>
+</head>
+
+<body>
+    <span class="glyphicon glyphicon-asterisk"></span>
+    <span class="glyphicon glyphicon-asterisk text-success"></span>
+    <a href="#nowhere">
+        <span class="glyphicon glyphicon-asterisk"></span> 连接
+    </a>
+    <button class="btn btn-primary btn-xs">
+        <span class="glyphicon glyphicon-asterisk"></span> 最小按钮
+    </button>
+    <button class="btn btn-primary btn">
+        <span class="glyphicon glyphicon-asterisk"></span> 按钮
+    </button>
+    <br>
+    <p>下拉菜单</p>
+    <div class="dropdown">
+        <button class="btn dropdown-toggle" id="ddm1" data-toggle="dropdown">
+            下拉菜单
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="ddm1">
+            <li>
+                <a href="#">HTML</a>            
+             </li>
+             <li role="presentation">
+                <a href="#">CSS</a>             
+             </li>
+             <li class="divider"></li>
+             <li class="disabled"><a role="menuitem" tabindex="-1" href="#">Bootstrap(开发中)</a></li>
+             <li class="dropdown-header">
+                javascript
+             </li>
+             <li role="presentation">
+                <a href="#">AJAX</a>            
+             </li>
+        </ul>
+    </div>
+</body>
+
+</html>
